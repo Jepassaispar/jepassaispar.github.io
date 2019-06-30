@@ -1,0 +1,68 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url(https://images.unsplash.com/photo-1535227798054-e4373ef3795a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1488&q=80), 
+  url(file:///C:/Users/PHLOU/Documents/HTML%20Projects/My%20first%20website/1st%20Startup%20web%20page/Grey%20wood%20texture.jpg);
+  background-repeat: no-repeat,
+  					 repeat-y;
+  background-position: center, left bottom;
+  background-repeat: all;
+  background-size: auto, 160%;
+ }
+
+.btn-lg:hover, h1:hover{
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+h1{
+	font-size: 50px;
+	color: rgba(250, 200, 0, 1);
+	display: flex;
+	justify-content: center;
+	border-bottom: solid 2px;
+	border-bottom-right-radius: 30em;
+	border-right: solid;
+	border-spacing: 10px;
+}
+
+body{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#maintitle, #subtitle{
+	display: flex;
+	justify-content: center;
+}
+
+#wi {
+	color: rgba(250, 0, 0, 1);
+}
+
+#fig{
+	color: rgb(0, 250, 0);
+}
+
+.btn-lg{
+	background-color: rgba(250, 200, 0, 1);
+	border: none;
+	border-radius: 25px;
+}
+
+.btn-lg, h1{
+	transition: all 1.5s;
+}
+
+#button{
+	display: flex;
+	justify-content: center;
+}
+
