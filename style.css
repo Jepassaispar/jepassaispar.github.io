@@ -15,7 +15,7 @@ body {
   background-size: auto, 160%;
  }
 
-.btn-lg:hover, h1:hover{
+.btn-block:hover, h1:hover{
 	cursor: pointer;
 	transform: scale(1.1);
 }
@@ -51,18 +51,20 @@ body{
 	color: rgb(0, 250, 0);
 }
 
-.btn-lg{
+.btn-block{
 	background-color: rgba(250, 200, 0, 1);
 	border: none;
 	border-radius: 25px;
+	border-width: 
 }
 
-.btn-lg, h1{
+.btn-block, h1{
 	transition: all 1.5s;
 }
 
-#button{
+/*#button{
 	display: flex;
 	justify-content: center;
 }
 
+*/
