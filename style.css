@@ -7,7 +7,7 @@ html {
 body {
   font-family: 'Montserrat', sans-serif;
   background-image: url(https://images.unsplash.com/photo-1535227798054-e4373ef3795a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1488&q=80), 
-  url(file:///Grey%20wood%20texture.jpg);
+  url(file://Grey wood texture.jpg);
   background-repeat: no-repeat,
   					 repeat-y;
   background-position: center, left bottom;
